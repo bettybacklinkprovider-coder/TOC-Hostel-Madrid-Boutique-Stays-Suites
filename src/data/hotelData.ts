@@ -1,3 +1,13 @@
+import heroImg from '../assets/images/hero_toc_madrid_1793004517903.jpg';
+import privateSuiteImg from '../assets/images/room_private_suite_1793004518155.jpg';
+import familyQuadImg from '../assets/images/room_family_quad_1793004520045.jpg';
+import deluxePenthouseImg from '../assets/images/room_deluxe_penthouse_1793004520664.jpg';
+import loungeBarImg from '../assets/images/gallery_lounge_bar_1793004520487.jpg';
+import biometricLockImg from '../assets/images/facility_biometric_lock_1793005156315.jpg';
+import coworkingAtriumImg from '../assets/images/facility_coworking_atrium_1793005157311.jpg';
+import kitchenCinemaImg from '../assets/images/facility_kitchen_cinema_1793005158515.jpg';
+import madridCentroImg from '../assets/images/facility_madrid_centro_1793005158506.jpg';
+
 export interface RoomItem {
   id: string;
   name: string;
@@ -76,15 +86,15 @@ export const HOTEL_INFO = {
 };
 
 export const IMAGES = {
-  hero: '/src/assets/images/hero_toc_madrid_1793004517903.jpg',
-  privateSuite: '/src/assets/images/room_private_suite_1793004518155.jpg',
-  familyQuad: '/src/assets/images/room_family_quad_1793004520045.jpg',
-  deluxePenthouse: '/src/assets/images/room_deluxe_penthouse_1793004520664.jpg',
-  loungeBar: '/src/assets/images/gallery_lounge_bar_1793004520487.jpg',
-  biometricLock: '/src/assets/images/facility_biometric_lock_1793005156315.jpg',
-  coworkingAtrium: '/src/assets/images/facility_coworking_atrium_1793005157311.jpg',
-  kitchenCinema: '/src/assets/images/facility_kitchen_cinema_1793005158515.jpg',
-  madridCentro: '/src/assets/images/facility_madrid_centro_1793005158506.jpg',
+  hero: heroImg,
+  privateSuite: privateSuiteImg,
+  familyQuad: familyQuadImg,
+  deluxePenthouse: deluxePenthouseImg,
+  loungeBar: loungeBarImg,
+  biometricLock: biometricLockImg,
+  coworkingAtrium: coworkingAtriumImg,
+  kitchenCinema: kitchenCinemaImg,
+  madridCentro: madridCentroImg,
 };
 
 export const ROOMS_DATA: RoomItem[] = [
